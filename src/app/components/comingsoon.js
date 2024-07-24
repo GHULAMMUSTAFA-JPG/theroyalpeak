@@ -24,13 +24,13 @@ export default function Comingsoons(){
     return(
         <ul className="count-down list-unstyled">
             <li id="days" className="count-number list-inline-item m-2">{days}<p className="count-head">Days</p></li>
-            <li id="hours" className="count-number list-inline-item m-2 m-2"> {hours}
+            <li id="hours" className="count-number list-inline-item "> {hours}
                 <p className="count-head">Hours</p>
             </li>
-            <li id="mins" className="count-number list-inline-item m-2 m-2">{minutes}
+            <li id="mins" className="count-number list-inline-item ">{minutes}
                 <p className="count-head">Mins</p>
             </li>
-            <li id="secs" className="count-number list-inline-item m-2 m-2">{seconds}
+            <li id="secs" className="count-number list-inline-item ">{seconds}
                 <p className="count-head">Secs</p>
             </li>
             <li id="end" className="h1"></li>

@@ -21,14 +21,14 @@ export default function IndexThree() {
         menuClass="navigation-menu nav-left nav-light"
       />
       <IndexThreeSlider />
-      {/* <section className="section">
+      <section className="section">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6 col-md-6">
               <div className="about-left">
                 <div className="position-relative shadow p-2 rounded-top-pill rounded-5 bg-white img-one">
                   <Image
-                    src="/images/hero.jpg"
+                    src="/images/2a.jpg"
                     width={0}
                     height={0}
                     sizes="100vw"
@@ -54,7 +54,7 @@ export default function IndexThree() {
 
                 <div className="img-two shadow rounded-3 overflow-hidden p-2 bg-white">
                   <Image
-                    src="/images/1.jpg"
+                    src="/images/1a.jpg"
                     width={0}
                     height={0}
                     sizes="100vw"
@@ -68,23 +68,23 @@ export default function IndexThree() {
 
             <div className="col-lg-6 col-md-6 mt-4 mt-sm-0 pt-2 pt-sm-0">
               <div className="section-title ms-lg-5">
-                <h6 className="text-primary fw-medium mb-2">
-                  Our story: Towntor
+                <h6 className="text-[#E7A91E] fw-medium mb-2">
+                  Our story: The Royal Peak
                 </h6>
                 <h4 className="title mb-3">
                   Efficiency. <br /> Transparency. Control.
                 </h4>
                 <p className="text-muted para-desc mb-0">
-                  Towntor developed a platform for the Real Estate marketplace
-                  that allows buyers and sellers to easily execute a transaction
-                  on their own. The platform drives efficiency, cost
+                  The Royal Peak developed a platform for the Real Estate
+                  marketplace that allows buyers and sellers to easily execute a
+                  transaction on their own. The platform drives efficiency, cost
                   transparency and control into the hands of the consumers.
-                  Towntor is Real Estate Redefined.
+                  Royal Peak is Real Estate Redefined.
                 </p>
 
                 <div className="mt-4">
-                  <Link href="/aboutus" className="btn btn-pills btn-primary">
-                    Read More{" "}
+                  <Link href="/" className="btn btn-pills bg-[#CA8E25] hover:bg-white">
+                    Read More
                     <i className="mdi mdi-arrow-right align-middle"></i>
                   </Link>
                 </div>
@@ -96,7 +96,7 @@ export default function IndexThree() {
         <div className="container mt-100 mt-60">
           <AboutUs />
         </div>
-
+        {/* 
         <div className="container mt-100 mt-60">
           <FeaturedProperties />
         </div>
@@ -123,8 +123,8 @@ export default function IndexThree() {
 
         <div className="container mt-100 mt-60">
           <GetInTuch />
-        </div>
-      </section> */}
+        </div> */}
+      </section>
       {/* <Footer /> */}
       {/* <ScrollTop /> */}
     </>
