@@ -71,10 +71,10 @@ export default function IndexThree() {
                 <h6 className="text-[#E7A91E] fw-medium mb-2">
                   Our story: The Royal Peak
                 </h6>
-                <h4 className="title mb-3">
+                <h4 className="text-white mb-3">
                   Efficiency. <br /> Transparency. Control.
                 </h4>
-                <p className="text-muted para-desc mb-0">
+                <p className="text-white para-desc mb-0">
                   The Royal Peak developed a platform for the Real Estate
                   marketplace that allows buyers and sellers to easily execute a
                   transaction on their own. The platform drives efficiency, cost
@@ -83,7 +83,10 @@ export default function IndexThree() {
                 </p>
 
                 <div className="mt-4">
-                  <Link href="/" className="btn btn-pills bg-[#CA8E25] hover:bg-white">
+                  <Link
+                    href="/"
+                    className="btn btn-pills bg-[#CA8E25] hover:bg-white"
+                  >
                     Read More
                     <i className="mdi mdi-arrow-right align-middle"></i>
                   </Link>
@@ -125,7 +128,7 @@ export default function IndexThree() {
           <GetInTuch />
         </div> */}
       </section>
-      {/* <Footer /> */}
+      <Footer />
       {/* <ScrollTop /> */}
     </>
   );
