@@ -7,17 +7,18 @@ export default function GetInTuch(){
       <div className="row justify-content-center">
         <div className="col-12">
           <div className="section-title text-center">
-            <h4 className="title mb-3">Have Question ? Get in touch!</h4>
+            <h4 className="title mb-3">
+              Looking to buy, rent, or sell your property?
+            </h4>
             <p className="text-muted para-desc mb-0 mx-auto">
-              A great plateform to buy, sell and rent your properties without
-              any agent or commisions.
+              We are your top-notch choice for Dubai real estate, specializing
+              in Azizi Riviera. Get in touch today!
             </p>
             <div className="mt-4 pt-2">
               <Link
                 href="/contactus"
                 className="btn btn-pills hover:bg-yellow-500 bg-[#C18721]"
               >
-        
                 Contact us
               </Link>
             </div>
