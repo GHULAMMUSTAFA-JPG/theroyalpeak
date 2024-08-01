@@ -23,11 +23,11 @@ export default function AboutUs(){
     ];
     return (
       <>
-        <div className="row justify-content-center text-white">
+        <div className="row justify-content-center text-black">
           <div className="col">
-            <div className="section-title text-center mb-4 pb-2">
+            <div className="section-title  text-center mb-4 pb-2">
               <h4 className="title mb-3">How We Works</h4>
-              <p className="text-muted para-desc mb-0 mx-auto">
+              <p className="text-black para-desc mb-0 mx-auto">
                 A premier platform for buying, selling, and renting properties
                 in Dubai's real estate market, backed by years of expertise.
               </p>
@@ -42,17 +42,17 @@ export default function AboutUs(){
               <div className="col-md-4" key={index}>
                 <div className="position-relative features text-center mx-lg-4 px-md-1">
                   <div className="feature-icon position-relative overflow-hidden d-flex justify-content-center">
-                    <FiHexagon className="hexagon text-white" />
+                    <FiHexagon className="hexagon text-black" />
                     <div className="position-absolute top-50 start-50 translate-middle text-white">
                       <Icon className="fea icon-m-md text-[#CA8E25]" />
                     </div>
                   </div>
 
                   <div className="mt-4">
-                    <Link href="/" className="fw-medium  text-white fs-5">
+                    <Link href="/" className="fw-medium  text-black fs-5">
                       {item.title}
                     </Link>
-                    <p className="text-muted mt-3 mb-0">{item.desc}</p>
+                    <p className="text-black mt-3 mb-0">{item.desc}</p>
                   </div>
                 </div>
               </div>

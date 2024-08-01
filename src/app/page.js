@@ -71,10 +71,10 @@ export default function IndexThree() {
                 <h6 className="text-[#E7A91E] fw-medium mb-2">
                   Our story: The Royal Peak
                 </h6>
-                <h4 className="text-white mb-3">
+                <h4 className="text-black mb-3">
                   Efficiency. <br /> Transparency. Control.
                 </h4>
-                <p className="text-white para-desc mb-0">
+                <p className="text-black para-desc mb-0">
                   The Royal Peak developed a platform for the Real Estate
                   marketplace that allows buyers and sellers to easily execute a
                   transaction on their own. The platform drives efficiency, cost
@@ -99,10 +99,10 @@ export default function IndexThree() {
         <div className="container mt-100 mt-60">
           <AboutUs />
         </div>
-        {/* 
-        <div className="container mt-100 mt-60">
+        
+        {/* <div className="container mt-100 mt-60">
           <FeaturedProperties />
-        </div>
+        </div> */}
 
         <div className="container-fluid mt-100 mt-60">
           <div
@@ -120,13 +120,13 @@ export default function IndexThree() {
           </div>
         </div>
 
-        <div className="container mt-100 mt-60">
+        {/* <div className="container mt-100 mt-60">
           <Broker />
-        </div>
+        </div> */}
 
         <div className="container mt-100 mt-60">
           <GetInTuch />
-        </div> */}
+        </div>
       </section>
       <Footer />
       {/* <ScrollTop /> */}
