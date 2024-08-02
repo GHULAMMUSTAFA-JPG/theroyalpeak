@@ -276,7 +276,7 @@ export default function Navbar({navClass,logolight,menuClass}){
                 </li>
 
                 <li>
-                  <Link href="/" className="sub-menu-item">
+                  <Link href="/contactus" className="sub-menu-item">
                     Contact Us
                   </Link>
                 </li>
