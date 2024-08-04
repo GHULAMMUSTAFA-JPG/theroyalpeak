@@ -6,85 +6,85 @@
 /*         Features              */
 /*===============================*/
 .features {
-    .title {
-        &:hover {
-            color: $primary !important;
-        }
+  .title {
+    &:hover {
+      color: $primary !important;
     }
-    .feature-icon {
-        .hexagon {
-            color: transparent !important;
-            fill: white !important;
-            height: 102px;
-            width: 102px;
-        }
+  }
+  .feature-icon {
+    .hexagon {
+      color: transparent !important;
+      fill: white !important;
+      height: 102px;
+      width: 102px;
     }
+  }
 }
 
 /*********************************/
 /*         Property Listing      */
 /*===============================*/
 .property {
-    transition: all 0.5s ease;
-    .property-image {
-        img,
-        .property-icon {
-            transition: all 0.5s ease;
-            li {
-                position: relative;
-                margin-left: 0;
-            }
-        }
-        .property-icon {
-            position: absolute;
-            top: 15px;
-            right: 15px;
-            opacity: 0;
-        }
+  transition: all 0.5s ease;
+  .property-image {
+    img,
+    .property-icon {
+      transition: all 0.5s ease;
+      li {
+        position: relative;
+        margin-left: 0;
+      }
     }
+    .property-icon {
+      position: absolute;
+      top: 15px;
+      right: 15px;
+      opacity: 0;
+    }
+  }
+  &:hover {
+    box-shadow: $shadow-md !important;
+    img {
+      transform: scale(1.05);
+    }
+    .property-icon {
+      opacity: 1;
+    }
+  }
+  .title {
     &:hover {
-        box-shadow: $shadow-md !important;
+      color: $primary !important;
+    }
+  }
+
+  &.property-list {
+    .property-image {
+      img {
+        object-fit: cover !important;
+
+        @media (min-width: 768px) {
+          width: 12rem !important;
+        }
+      }
+      &.md-full {
         img {
-            transform: scale(1.05);
+          @media (max-width: 768px) {
+            width: 100% !important;
+          }
         }
-        .property-icon {
-            opacity: 1;
-        }
+      }
     }
-    .title {
-        &:hover {
-            color: $primary !important;
-        }
-    }
-
-    &.property-list {
-        .property-image {
-            img {
-                object-fit: cover!important;
-
-                @media (min-width: 768px) {
-                    width: 12rem!important;
-                }
-            }
-            &.md-full {
-                img {
-                    @media (max-width: 768px) {
-                        width: 100% !important;
-                    }
-                }
-            }
-        }
-    }
+  }
 }
 
 .categories {
-    transition: all 0.5s ease;
-    .title {
-        &:hover {
-            color: $primary !important;
-        }
-    }
+  transition: all 0.5s ease;
+  .title {
     &:hover {
-        box-shadow: $shadow-md !important;
+      color: #d79426 !important;
     }
+  }
+  &:hover {
+    box-shadow: $shadow-md !important;
+  }
 }
