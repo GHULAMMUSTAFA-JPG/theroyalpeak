@@ -11,7 +11,8 @@ import AboutUs from "./components/about";
 import Broker from "./components/broker";
 import FeaturedProperties from "./components/featuredProperties";
 import GetInTuch from "./components/getInTuch";
-import Categories from "./components/categories"
+import Categories from "./components/categories";
+import Clients from "./components/clientOne";
 
 export default function IndexThree() {
   return (
@@ -128,6 +129,10 @@ export default function IndexThree() {
         {/* <div className="container mt-100 mt-60">
           <Broker />
         </div> */}
+
+        <div className="container mt-100 mt-60">
+          <Clients />
+        </div>
 
         <div className="container mt-100 mt-60">
           <GetInTuch />
