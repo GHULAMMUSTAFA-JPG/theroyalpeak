@@ -102,7 +102,7 @@ export default function IndexThree() {
           <AboutUs />
         </div>
 
-        <div className="container mt-100 mt-60">
+        <div className="container  mt-32">
           <Categories />
         </div>
 
@@ -110,7 +110,7 @@ export default function IndexThree() {
           <FeaturedProperties />
         </div> */}
 
-        <div className="container-fluid mt-100 mt-60">
+        <div className="container-fluid mt-32 border-white border-2">
           <div
             className="position-relative overflow-hidden rounded-3 shadow py-5"
             style={{

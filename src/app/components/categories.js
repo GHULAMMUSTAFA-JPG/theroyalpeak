@@ -38,18 +38,18 @@ export default function Categories() {
           <div className="section-title mb-4 pb-2">
             <h4 className="title mb-3">Top Developers</h4>
             <p className="text-muted para-desc mb-0">
-              Transforming Dubai&apos;s property market: Zero agents, zero
-              commissions, pure convenience.
+              Revolutionizing Dubai&apos;s Real Estate: Zero Agents. Zero
+              Commissions. Pure Convenience.
             </p>
           </div>
         </div>
       </div>
 
-      <div className="row row-cols-lg-5 row-cols-md-3 row-cols-sm-2 row-cols-1 g-4 mt-0">
+      <div className="row row-cols-lg-5 row-cols-md-3 row-cols-sm-2 row-cols-1 g-4 mt-0 h-auto ">
         {data.map((item, index) => {
           return (
-            <div className="col" key={index}>
-              <div className="categories position-relative overflow-hidden rounded-3 shadow">
+            <div className="col " key={index}>
+              <div className="categories position-relative overflow-hidden rounded-3 shadow h-100 ">
                 <Image
                   src={item.image}
                   width={0}
@@ -61,7 +61,7 @@ export default function Categories() {
                 />
 
                 <div className="p-3">
-                  <Link href="" className="title text-dark fs-5 fw-medium">
+                  <Link href="" className="title text-dark fs-5 fw-medium ">
                     {item.name}
                   </Link>
                   <p className="text-muted small mb-0">{item.listings}</p>
