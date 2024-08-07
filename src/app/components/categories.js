@@ -38,8 +38,8 @@ export default function Categories() {
           <div className="section-title mb-4 pb-2">
             <h4 className="title mb-3">Top Developers</h4>
             <p className="text-muted para-desc mb-0">
-              Revolutionizing Dubai&apos;s Real Estate: Zero Agents. Zero
-              Commissions. Pure Convenience.
+              Discover a New Era in Dubai Real Estate: No Agents, No
+              Commissions, Just Effortless Transactions.
             </p>
           </div>
         </div>
