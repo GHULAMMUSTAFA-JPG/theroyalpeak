@@ -59,7 +59,7 @@ export default function ClientOne() {
                   <div className="tiny-slider client-testi" key={index}>
                     <div className="card border-0 bg-white">
                       <div className="card-body p-4 rounded-3 shadow m-2">
-                        <i className="mdi mdi-format-quote-open display-1 text-primary opacity-25 position-absolute end-0 top-0"></i>
+                        <icon className="mdi mdi-format-quote-open display-1 text-primary opacity-25 position-absolute end-0 top-0"></icon>
 
                         <div className="d-flex">
                           <Image

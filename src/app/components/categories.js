@@ -61,10 +61,13 @@ export default function Categories() {
                 />
 
                 <div className="p-3">
-                  <Link href="" className="title text-dark fs-5 fw-medium ">
+                  <Link
+                    href=""
+                    className="title text-dark font-base fw-medium "
+                  >
                     {item.name}
                   </Link>
-                  <p className="text-muted small mb-0">{item.listings}</p>
+                  {/* <p className="text-muted small mb-0">{item.listings}</p> */}
                 </div>
               </div>
             </div>

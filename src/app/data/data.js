@@ -57,7 +57,7 @@ export const clientData = [
     image: "/images/client/02.jpg",
     name: "Jessica Day",
     title: "First-Time Homebuyer",
-    desc: '"I couldn\'t be happier with my experience. The Royal Peak made buying a property easy. Truly exceptional service!"',
+    desc: "I was thrilled with my homebuying experience. The Royal Peak made the entire process seamless and stress-free. Exceptional service from start to finish!",
   },
   {
     image: "/images/client/03.jpg",
