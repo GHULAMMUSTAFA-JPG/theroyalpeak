@@ -17,6 +17,8 @@ export default function IndexThreeSlider() {
         autoPlay={true}
         showThumbs={false}
         showStatus={false}
+        swipeScrollTolerance={2}
+        dynamicHeight={true}
       >
         <div
           className="slide-inner slide-bg-image d-flex align-items-center vh-100"
