@@ -17,7 +17,7 @@ export default function IndexThreeSlider() {
         autoPlay={true}
         showThumbs={false}
         showStatus={false}
-        swipeScrollTolerance={2}
+        swipeScrollTolerance={9}
         dynamicHeight={true}
       >
         <div
