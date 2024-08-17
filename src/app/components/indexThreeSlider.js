@@ -10,6 +10,11 @@ export default function IndexThreeSlider() {
     <section
       className="swiper-slider-hero position-relative d-block vh-100"
       id="home"
+      style={
+        {
+          // touchAction: "none", // Add this style
+        }
+      }
     >
       <Carousel
         infiniteLoop={true}
@@ -17,8 +22,9 @@ export default function IndexThreeSlider() {
         autoPlay={true}
         showThumbs={false}
         showStatus={false}
-        swipeScrollTolerance={9}
-        dynamicHeight={true}
+        // swipeScrollTolerance={9}
+        // dynamicHeight={true}
+        swipeable={false}
       >
         <div
           className="slide-inner slide-bg-image d-flex align-items-center vh-100"
