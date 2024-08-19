@@ -62,7 +62,7 @@ export default function Categories() {
 
                 <div className="p-3">
                   <Link
-                    href=""
+                    href="/blog-detail"
                     className="title text-dark font-base fw-medium "
                   >
                     {item.name}
