@@ -1,0 +1,37 @@
+.list-checked {
+  padding-left: 0;
+  text-align: left;
+  list-style-type: none;
+}
+
+.list-checked > li {
+  position: relative;
+  padding-left: 2.25rem;
+}
+
+.list-checked > li + li,
+.list-order > li + li {
+  margin-top: 0.75rem;
+}
+
+.list-checked > li::before {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  font-family: "Font Awesome 6 Free";
+  content: "\f00c";
+  display: block;
+  width: 1.5rem;
+  height: 1.5rem;
+  line-height: 1.5rem;
+  text-align: center;
+  font-size: 0.75rem;
+  border-radius: 50%;
+  background-color: white; /* Maintain original background color */
+  /* background-color: #212529; Maintain original background color */
+  color: #ca8e25; /* Yellow-500 color in Bootstrap */
+  -webkit-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  font-weight: 900;
+}

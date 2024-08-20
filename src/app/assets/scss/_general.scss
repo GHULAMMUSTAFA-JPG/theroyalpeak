@@ -6,34 +6,87 @@
 /*         General                */
 /*===============================*/
 body {
-    font-family: $font-family-secondary;
-    overflow-x: hidden !important;
-    font-size: $font-size-base;
-    color: $dark !important;
+  font-family: $font-family-secondary;
+  overflow-x: hidden !important;
+  font-size: $font-size-base;
+  color: $dark !important;
 }
-h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-    font-family: $font-family-base;
-    line-height: 1.5;
-    font-weight: 500 !important;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: $font-family-base;
+  line-height: 1.5;
+  font-weight: 500 !important;
 }
-.display-1, .display-2, .display-3, .display-4, .display-5, .display-6 {
-    line-height: 1.2;
+.display-1,
+.display-2,
+.display-3,
+.display-4,
+.display-5,
+.display-6 {
+  line-height: 1.2;
 }
 ::selection {
-    background: lighten($dark, 5%);
-    color: $white;
+  background: lighten($dark, 5%);
+  color: $white;
 }
 a {
-    text-decoration: none !important;
+  text-decoration: none !important;
 }
 p {
-    line-height: 1.6;
+  line-height: 1.6;
 }
-ul li{
-    -webkit-margin-start: 0.25rem;
-            margin-inline-start: 0.25rem;
-  }
-  ul li:first-child{
-    -webkit-margin-start: 0px;
-            margin-inline-start: 0px;
-  }
+ul li {
+  -webkit-margin-start: 0.25rem;
+  margin-inline-start: 0.25rem;
+}
+ul li:first-child {
+  -webkit-margin-start: 0px;
+  margin-inline-start: 0px;
+}
+
+.list-checked1 {
+  padding-left: 0;
+  text-align: left;
+  list-style-type: none;
+}
+
+.list-checked1 > li {
+  position: relative;
+  padding-left: 2.25rem;
+}
+
+.list-checked1 > li + li,
+.list-order > li + li {
+  margin-top: 0.75rem;
+}
+
+.list-checked1 > li::before {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  font-family: "Font Awesome 6 Free";
+  content: "\f00c";
+  display: block;
+  width: 1.5rem;
+  height: 1.5rem;
+  line-height: 1.5rem;
+  text-align: center;
+  font-size: 0.75rem;
+  border-radius: 50%;
+  background-color: #212529; /* Maintain original background color */
+  color: #dab852; /* Yellow-500 color in Bootstrap */
+  -webkit-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  font-weight: 900;
+}

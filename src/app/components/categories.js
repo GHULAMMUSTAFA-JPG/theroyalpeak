@@ -12,6 +12,7 @@ export default function Categories() {
     {
       image: "/images/property/e.jpg",
       name: "Emaar Developers",
+      link: "/emaar",
       //   listings: "124 Listings",
     },
     {
@@ -31,6 +32,7 @@ export default function Categories() {
       //   listings: "12 Listings",
     },
   ];
+
   return (
     <>
       <div className="row justify-content-center">
@@ -57,16 +59,22 @@ export default function Categories() {
                   sizes="100vw"
                   style={{ width: "100%", height: "150px" }}
                   className="img-fluid"
-                  alt=""
+                  alt={item.name}
                 />
 
                 <div className="p-3">
-                  <Link
-                    href="/blog-detail"
-                    className="title text-dark font-base fw-medium "
-                  >
-                    {item.name}
-                  </Link>
+                  {item.link ? (
+                    <Link
+                      href={item.link}
+                      className="title text-dark font-base fw-medium "
+                    >
+                      {item.name}
+                    </Link>
+                  ) : (
+                    <span className="title text-dark font-base fw-medium ">
+                      {item.name}
+                    </span>
+                  )}
                   {/* <p className="text-muted small mb-0">{item.listings}</p> */}
                 </div>
               </div>
